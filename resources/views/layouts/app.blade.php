@@ -72,7 +72,7 @@
             <div class="sidebar-wrapper">
                 <ul class="nav flex-column">
                     <li class="nav-item">
-                    <a class="nav-link active" href="{{ route('hives.index') }}">
+                    <a class="nav-link active" href="{{ route('apiaries.index') }}">
                             <i class="material-icons">dashboard</i>
                             <p>
                                 Mes ruches
@@ -80,6 +80,22 @@
                         </a>
                     </li>
                 
+                    <li class="nav-item">
+                    <a class="nav-link active" href="{{ route('hives.index') }}">
+                            <i class="material-icons">dashboard</i>
+                            <p>
+                                Mes ruches
+                            </p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link active" href="{{ route('colonies.index') }}">
+                            <i class="material-icons">dashboard</i>
+                            <p>
+                                Mes colonies
+                            </p>
+                        </a>
+                    </li>
                 </ul>
             </div>
         </nav>
